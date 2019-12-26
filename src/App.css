@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.border-box {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid;
+}
+
+.content-box {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+#txtTodoName {
+    width: 90%;
+}
+
+#txtTodoName, #btnAdd {
+    padding: 5px;
+    font-size: 18px;
+}
+
+.listGroup {
+    list-style-type: none;
+}
+
+.listGroup li {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border: 1px solid;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+}
+
+input#txtTodoEdit {
+    width: 100%;
+}
+
+li.isHide {
+    background-color: #ff0505;
+    color: #000000;
+    text-decoration: line-through;
+}
+
+div.listName {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+}
+
+div.listAction {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 5px;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button#btnEdit, button#btnDel {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+span.originalWord {
+    font-size: 18px;
+}
+
+span.upgradeWord {
+    font-size: 18px;
+    font-weight: bold;
+}
